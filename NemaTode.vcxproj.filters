@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\nmeaparse">
+      <UniqueIdentifier>{9bcc8e83-8306-49f7-a1a1-68bdc9e6f7ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\nmeaparse">
+      <UniqueIdentifier>{861cf946-0804-4290-88a3-bac4cf7f90e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="demo_simple.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClInclude Include="include\nmeaparse\Event.h">
+      <Filter>头文件\nmeaparse</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nmeaparse\GPSFix.h">
+      <Filter>头文件\nmeaparse</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nmeaparse\GPSService.h">
+      <Filter>头文件\nmeaparse</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nmeaparse\nmea.h">
+      <Filter>头文件\nmeaparse</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nmeaparse\NMEACommand.h">
+      <Filter>头文件\nmeaparse</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nmeaparse\NMEAParser.h">
+      <Filter>头文件\nmeaparse</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nmeaparse\NumberConversion.h">
+      <Filter>头文件\nmeaparse</Filter>
+    </ClInclude>
+    <ClCompile Include="src\GPSFix.cpp">
+      <Filter>源文件\nmeaparse</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GPSService.cpp">
+      <Filter>源文件\nmeaparse</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NMEACommand.cpp">
+      <Filter>源文件\nmeaparse</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NMEAParser.cpp">
+      <Filter>源文件\nmeaparse</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NumberConversion.cpp">
+      <Filter>源文件\nmeaparse</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

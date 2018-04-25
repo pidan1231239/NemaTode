@@ -31,7 +31,7 @@ int main(int argc, char** argv){
 		cout << (gps.fix.locked() ? "[*] " : "[ ] ") << setw(2) << setfill(' ') << gps.fix.trackingSatellites << "/" << setw(2) << setfill(' ') << gps.fix.visibleSatellites << " ";
 		cout << fixed << setprecision(2) << setw(5) << setfill(' ') << gps.fix.almanac.averageSNR() << " dB   ";
 		cout << fixed << setprecision(2) << setw(6) << setfill(' ') << gps.fix.speed << " km/h [" << GPSFix::travelAngleToCompassDirection(gps.fix.travelAngle, true) << "]  ";
-		cout << fixed << setprecision(6) << gps.fix.latitude << "\xF8 " "N, " << gps.fix.longitude << "\xF8 " "E" << "  ";
+		cout << fixed << setprecision(6) << gps.fix.latitude << "¡ãN, " << gps.fix.longitude << "¡ãE" << "  ";
 		cout << "+/- " << setprecision(1) << gps.fix.horizontalAccuracy() << "m  ";
 		cout << endl;
 	};
